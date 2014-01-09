@@ -10,14 +10,14 @@ body {
 
 h1 {
     font-family: 'Black Ops One', sans-serif;
-    font-size:4em;
+    font-size:5em;
     color:#ff9300;
     text-align:center;
 }
 
 #message {
     position:absolute;
-    top:50%;
+    top:45%;
     margin-top:-265px;
     display:block;
     width:100%;
@@ -27,29 +27,50 @@ h1 {
 table {
     margin-left:auto;
     margin-right:auto;
-}
-
-td {
-    width:300px;
+    width:500px;
 }
 
 .bubble {
     background-color:#2fa02f;
-    padding:1em;
     border: 4px solid #3b2b11;
-    border-radius:100%
+    border-radius:100%;
 }
 
-#left-bubble {
-    /*margin-bottom:35px;*/
-    margin-right:25px;
+#caption {  
+    width:260px;
+    padding:1em;
+    text-align:center;
+    margin-left:200px;
 }
 
-#right-bubble {
-    margin-top:35px;
+#thought {
+    width:20px;
+    height:20px;
+    margin-bottom:160px;
 }
 
 p {
     display:inline-block;
     font-family:'Exo 2', sans-serif;
+    font-size:18px;
+}
+
+#image{
+    text-align:left;
+    width:1px;
+}
+
+#footer {
+    position:absolute;
+    top:100%;
+    width:100%;
+    margin-top:-20px;
+    text-align:right;
+}
+
+h7 {
+    color: #999999;
+    font-family:'Exo 2', sans-serif;
+    font-size: 14px;
+    padding-right:16px;
 }
