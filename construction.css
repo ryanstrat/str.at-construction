@@ -1,1 +1,55 @@
-﻿
+
+html {
+    background-color:#161616;
+    background-image:url(assets/stitch.jpg);
+}
+
+body {
+    margin:0px;
+}
+
+h1 {
+    font-family: 'Black Ops One', sans-serif;
+    font-size:4em;
+    color:#ff9300;
+    text-align:center;
+}
+
+#message {
+    position:absolute;
+    top:50%;
+    margin-top:-265px;
+    display:block;
+    width:100%;
+    text-align:center;
+}
+
+table {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+td {
+    width:300px;
+}
+
+.bubble {
+    background-color:#2fa02f;
+    padding:1em;
+    border: 4px solid #3b2b11;
+    border-radius:100%
+}
+
+#left-bubble {
+    /*margin-bottom:35px;*/
+    margin-right:25px;
+}
+
+#right-bubble {
+    margin-top:35px;
+}
+
+p {
+    display:inline-block;
+    font-family:'Exo 2', sans-serif;
+}
