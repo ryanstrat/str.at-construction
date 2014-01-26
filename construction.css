@@ -8,6 +8,15 @@ body {
     margin:0px;
 }
 
+a {
+    color:#ff9300;
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
 h1 {
     font-family: 'Black Ops One', sans-serif;
     font-size:5em;
